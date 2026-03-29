@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio9 {
-    public static void main(String[] args){
-        Scanner Teclado = new Scanner(System.in);
+    public static void main(String[] args, Scanner Teclado){
         System.out.println("Informe um dia de 1 a 7:");
         int dia = Teclado.nextInt();
 
@@ -32,6 +31,5 @@ public class Exercicio9 {
                 System.out.println("Dia inválido");
         }
 
-        Teclado.close();
     }
 }

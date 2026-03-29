@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Exercicio13 {
-    public static void main(String[] args) {
-        Scanner Teclado = new Scanner(System.in);
+    public static void main(String[] args, Scanner Teclado) {
+
         System.out.println("Informe o número do mês (1-12):");
         int mes = Teclado.nextInt();
 
@@ -32,6 +32,6 @@ public class Exercicio13 {
                 System.out.println("Mês inválido");
         }
 
-        Teclado.close();
+
     }
 }

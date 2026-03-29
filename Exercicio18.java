@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Exercicio18 {
-    public static void main(String[] args) {
-        Scanner Teclado = new Scanner(System.in);
+    public static void main(String[] args, Scanner Teclado) {
+
         System.out.println("Digite um número de 1 a 10:");
         int numero = Teclado.nextInt();
 
@@ -41,6 +41,5 @@ public class Exercicio18 {
                 System.out.println("Número inválido");
         }
 
-        Teclado.close();
     }
 }

@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio6 {
-    public static void main(String[] args){
-        Scanner Teclado = new Scanner(System.in);
+    public static void main(String[] args, Scanner Teclado){
 
         System.out.println("Informe um ano para ser verificado");
         int ano = Teclado.nextInt();
@@ -13,6 +12,5 @@ public class Exercicio6 {
             System.out.println("O ano não é bissexto");
         }
 
-        Teclado.close();
     }
 }

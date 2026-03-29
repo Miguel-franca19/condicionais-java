@@ -2,8 +2,8 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class Exercicio20 {
-    public static void main(String[] args) {
-        Scanner Teclado = new Scanner(System.in);
+    public static void main(String[] args, Scanner Teclado) {
+
         System.out.println("Ola, jogador 1, escolha entre 'pedra', 'papel' ou 'tesoura'");
         String escolha1 = Teclado.nextLine();
         Random aleatorio = new Random();
@@ -43,7 +43,7 @@ public class Exercicio20 {
             System.out.println("O jogo empatou");
         }
 
-        Teclado.close();
+
 
     }
 }

@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Exercicio16 {
-    public static void main(String[] args) {
-        Scanner Teclado = new Scanner(System.in);
+    public static void main(String[] args, Scanner Teclado) {
+
         System.out.println("Insira um numero");
         int n = Teclado.nextInt();
 
@@ -11,6 +11,6 @@ public class Exercicio16 {
                         : (n % 5 == 0) ? "O umero e divisivel apenas por 5"
                                 : "O numero não é divisivel por nenhum dos dois";
         System.out.println(result);
-        Teclado.close();
+
     }
 }

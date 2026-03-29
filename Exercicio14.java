@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Exercicio14 {
-    public static void main(String[] args) {
-        Scanner Teclado = new Scanner(System.in);
+    public static void main(String[] args, Scanner Teclado) {
+
         System.out.println("informe o primeiro numero ");
         int n1 = Teclado.nextInt();
         System.out.println("informe o segundo numero numero ");
@@ -14,7 +14,6 @@ public class Exercicio14 {
                         : (n3 > n1 && n3 > n2) ? "o terceiro numero é maior" : "todos sao iguais";
         System.out.println(resultado);
 
-        Teclado.close();
 
     }
 }

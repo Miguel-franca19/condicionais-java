@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public class Exercicio7 {
-    public static void main(String[] args) {
+    public static void main(String[] args, Scanner Teclado) {
 
-        Scanner Teclado = new Scanner(System.in);
         System.out.println("Informe o primeiro lado:");
         double a = Teclado.nextDouble();
         System.out.println("Informe o segundo lado:");
@@ -19,6 +18,5 @@ public class Exercicio7 {
 
         System.out.println(tipo);
 
-        Teclado.close();
     }
 }

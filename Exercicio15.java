@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio15 {
-    public static void main(String[] args) {
-        Scanner Teclado = new Scanner(System.in);
+    public static void main(String[] args, Scanner Teclado) {
         String userCerto = "user";
         String senhaCerta = "1234";
         System.out.println("Digite o usuário:");
@@ -13,6 +12,5 @@ public class Exercicio15 {
                 : "Acesso negado";
         System.out.println(resultado);
 
-        Teclado.close();
     }
 }

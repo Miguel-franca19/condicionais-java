@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio19 {
-    public static void main(String[] args) {
-        Scanner Teclado = new Scanner(System.in);
+    public static void main(String[] args, Scanner Teclado) {
         System.out.println("Insira a velocidade do veículo");
         double velocidade = Teclado.nextDouble();
         System.out.println("Insira o limite da via");
@@ -17,6 +16,5 @@ public class Exercicio19 {
             System.out.println("Multa gravíssima + suspensão");
         }
 
-        Teclado.close();
     }
 }

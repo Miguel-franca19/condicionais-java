@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio8 {
-    public static void main(String[] args) {
-        Scanner Teclado = new Scanner(System.in);
+    public static void main(String[] args, Scanner Teclado){
         System.out.println("Informe o seu peso");
         double peso = Teclado.nextDouble();
         System.out.println("Informe e altura");
@@ -16,7 +15,5 @@ public class Exercicio8 {
         System.out.println("Voce está "+result);
         System.out.println("voce está "+fSaudavel+" da faixa saudavel");
 
-
-        Teclado.close();
     }
 }

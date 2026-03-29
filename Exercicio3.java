@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio3 {
-    public static void main(String[] args) {
-        Scanner Teclado = new Scanner(System.in);
+    public static void main(String[] args, Scanner Teclado) {
         System.out.println("Insira a primeira nota do aluno para ser verificada");
         double n1 = Teclado.nextInt();
         System.out.println("Insira a segunda nota do aluno para ser verificada");
@@ -20,6 +19,5 @@ public class Exercicio3 {
         } else {
             System.out.println("Média invalida!! não está entre 0 e 10");
         }
-        Teclado.close();
     }
 }
